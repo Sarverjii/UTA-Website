@@ -81,7 +81,7 @@
     flex-wrap: wrap;
   }
   
-  .registerButton, .loginButton, .adminButton {
+  .registerButton, .loginButton{
     padding: 12px 25px;
     border: none;
     border-radius: 5px;
@@ -234,12 +234,7 @@
     color: #374151;
     margin: 15px 0 5px;
   }
-  
-  .highlight {
-    background-color: #FEF3C7;
-    padding: 5px 10px;
-    border-radius: 4px;
-  }
+
   
   .lastDate {
     color: #DC2626;

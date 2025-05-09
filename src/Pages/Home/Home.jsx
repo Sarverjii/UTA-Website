@@ -13,9 +13,8 @@ export default function Home() {
         <h2 className={styles.subTitle}>Nissan All India Open Seniors Tennis Tournament 2024</h2>
         <p className={styles.date}>Dehradun | December 8-9, 2024</p>
         <div className={styles.buttonContainer}>
-          <button className={styles.registerButton}>Register Now</button>
-          <button className={styles.loginButton}>User Login</button>
-          <button className={styles.adminButton}>Admin Login</button>
+          <Link to="/Register"><button className={styles.registerButton}>Register Now</button></Link>
+          <Link to="UserLogin"><button className={styles.loginButton}>User Login</button></Link>
         </div>
       </header>
 
@@ -103,7 +102,7 @@ export default function Home() {
                   <ul className={styles.bulletList}>
                     <li>Breakfast and Lunch on both days</li>
                     <li>Gala dinner on December 9</li>
-                    <li className={styles.highlight}>Every participant receives Indian Tree T-Shirt, Shorts, Socks, Cap, Wristband (MRP more than ₹3,000)</li>
+                    <li>Every participant receives Indian Tree T-Shirt, Shorts, Socks, Cap, Wristband (MRP more than ₹3,000)</li>
                   </ul>
                 </div>
               </div>
